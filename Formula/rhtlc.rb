@@ -1,16 +1,16 @@
 class Rhtlc < Formula
   desc "Red Hat Training Lab Connector - CLI tool for connecting to training environments"
   homepage "https://github.com/RedHatTraining/homebrew-rhtlc"
-  version "3.4.1"
+  version "3.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.1/rhtlc-macos-x86_64"
-      sha256 "e879b1cc6d4dbe4a6baabe5f4e92dae0587343c067c0ae407a0f3ab8609f06ed"
+      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.3/rhtlc-macos-x86_64"
+      sha256 "add407c1856c9b0deddd96c7638e713f816cab4fdf519f3b2d0a273a0bd73eb9"
     else
-      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.1/rhtlc-macos-arm64"
-      sha256 "a427c6b068dec881bda758a8c64b3bdd49be1de3a19e48664ac799ffd0087859"
+      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.3/rhtlc-macos-arm64"
+      sha256 "43d62104f4c142cb1982880eb3570e495661519aefc6c73bb036e20651b38b49"
     end
   end
 

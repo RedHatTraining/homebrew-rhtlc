@@ -1,15 +1,15 @@
 class Rhtlc < Formula
   desc "Red Hat Training Lab Connector - CLI tool for connecting to training environments"
-  homepage "https://github.com/RedHatTraining/dle-wstunnel-ole"
-  version "3.4.1"
+  homepage "https://github.com/${TAP_FULL_REPO}"
+  version "${VERSION}"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/RedHatTraining/dle-wstunnel-ole/releases/download/v3.4.1/rhtlc-macos-x86_64"
+      url "https://github.com/${TAP_FULL_REPO}/raw/main/releases/${VERSION}/rhtlc-macos-x86_64"
       sha256 "fd2179d2e65d41ed2c22f95bbdaef1887208c7f5c321b3f620b1f4a20a87467e"
     else
-      url "https://github.com/RedHatTraining/dle-wstunnel-ole/releases/download/v3.4.1/rhtlc-macos-arm64"
+      url "https://github.com/${TAP_FULL_REPO}/raw/main/releases/${VERSION}/rhtlc-macos-arm64"
       sha256 "390e836c084868e023dc074dbbde02d105c611a30724a29c1b3041d8466f77e8"
     end
   end

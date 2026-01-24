@@ -3,10 +3,10 @@ cask "rhtlc-gui" do
   
   if Hardware::CPU.intel?
     url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.1/rhtlc-gui-macos-x86_64.zip"
-    sha256 "81418c334ae82cc6966e2d13e254b12f8c6f2d935218113e050a69599ce66200"
+    sha256 "3e08db63484d631262c2ad99145e387c52df4c453ff08fee58b6626e731eb629"
   else
     url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.1/rhtlc-gui-macos-arm64.zip"
-    sha256 "c42e8fbd58399d2660bd5195220a5178e1b710770391076ef93fb7def81b2b8d"
+    sha256 "e58b735118f0a4ab8728d73cf870ca6e59c27030da0faa94e62e7bfc8571fdb3"
   end
 
   name "RHTLC GUI"

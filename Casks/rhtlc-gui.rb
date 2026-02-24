@@ -1,12 +1,12 @@
 cask "rhtlc-gui" do
-  version "3.4.3"
+  version "4.0.0"
   
   if Hardware::CPU.intel?
-    url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.3/rhtlc-gui-macos-x86_64.zip"
-    sha256 "381ac37bcb4f671f8db01ecfe2833c95671fbce4920ac99b72fbc2b1151d7d2b"
+    url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/4.0.0/rhtlc-gui-macos-x86_64.zip"
+    sha256 "6e84f9f21fbefd484c067e227f065c9b4a53f45ce41fe657f4ecedadc173835c"
   else
-    url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/3.4.3/rhtlc-gui-macos-arm64.zip"
-    sha256 "763236b49191575476259fd3c322ead4cd61bce3271783ffc54b502f82dd5e84"
+    url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/4.0.0/rhtlc-gui-macos-arm64.zip"
+    sha256 "fa519e5ac4e8b214379a3eb987a956bba781d0b8e72de4c19c41182c122cc02a"
   end
 
   name "RHTLC GUI"

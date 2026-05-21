@@ -7,10 +7,10 @@ class Rhtlc < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/5.0.8/rhtlc-macos-x86_64"
-      sha256 "ac348c253f8bb0b07c1f7c3ab426b55ecdd4228f917edb52c4705dcffb93fc12"
+      sha256 "03be376241e02b963925cf8c67f57f1df33ebabe052ac4e94d478efd61569acb"
     else
       url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/5.0.8/rhtlc-macos-arm64"
-      sha256 "d36125c8b6b25ee92f156f1d74e610ffee668eba55a48403d775e47db75a21a0"
+      sha256 "270a0d0745c6a247c93483a8d9b1e86c44546da4bde6b559b9fb166eb9b93de9"
     end
   end
 

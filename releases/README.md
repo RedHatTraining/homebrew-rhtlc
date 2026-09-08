@@ -4,19 +4,20 @@ This directory contains release binaries for RHTLC (Red Hat Training Lab Connect
 
 ## Why Are Binaries Here?
 
-The source code repository is private, but we want to provide public access to 
+The source code repository is private, but we want to provide public access to
 release binaries via Homebrew. By storing the binaries in this public tap repository,
 users can install RHTLC via Homebrew without needing access to the private source repo.
 
 ## Directory Structure
 
 releases/
-  - 3.4.1/
-    - rhtlc-macos-x86_64
-    - rhtlc-macos-arm64
-    - rhtlc-gui-macos-x86_64.zip
-    - rhtlc-gui-macos-arm64.zip
+  - 6.0.1/
+    - rhtlc-macos-x86_64.tar.gz
+    - rhtlc-macos-arm64.tar.gz
   - [other versions]/
+
+macOS GUI zips exceed GitHub's 100MB git limit, so they are attached to
+GitHub Releases on this tap (`releases/download/vX.Y.Z/`), not stored in git.
 
 ## Installation
 

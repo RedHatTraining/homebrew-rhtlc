@@ -7,9 +7,7 @@ class Rhtlc < Formula
   license "MIT"
 
   # Homebrew 7+ `brew tap` / `brew readall` evaluates Linux even on macOS.
-  # A URL must exist outside `on_macos` or the tap is rejected ("formula
-  # requires at least a URL"). Linux installs use COPR (`dnf`), not this formula.
-
+  # A URL must exist outside `on_macos` or the tap is rejected.
   depends_on :macos
 
   on_macos do

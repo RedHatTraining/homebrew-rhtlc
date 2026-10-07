@@ -1,3 +1,7 @@
+# Red Hat Training Lab Connector (RHTLC) for MacOS
+
+The RHTLC client provides GUI and CLI interfaces, which enable students and instructors to connect to the online lab environments. The connection is established through a WebSockets tunnel and enables SSH, SFTP, SOCKS5 Proxy, RDP (in some instances), and VPN connectivity for users to the lab environments. This additional method is designed to enhance the student experience and to assist with learning.
+
 ## MacOS Installation Instructions
 The recommended and supported method for installing RHTLC on MacOS is by using Homebrew. Homebrew installs both GUI and CLI interfaces, with automatic updates and no quarantine issues.
 
@@ -30,10 +34,13 @@ brew uninstall --cask rhtlc-gui
 ```
 ### macOS Notes
 
-Apple Silicon versus Intel: Check with `uname -m`: arm64 = Apple Silicon, x86_64 = Intel.
-Quarantine: macOS blocks unsigned apps. Always run the `xattr -cr` command on downloaded `.app` files.
-Gatekeeper: If macOS reports that "app is damaged", then right-click and select `Open` → `Open` (might be needed twice).
-URL Protocol: After the `.app` bundle is installed, the `rhtlc://` links work automatically in browsers.
+**Apple Silicon versus Intel:** Check with `uname -m`: arm64 = Apple Silicon, x86_64 = Intel.
 
-NOTE: For Homebrew installation instructions, refer to https://brew.sh/.
+**Quarantine:** macOS blocks unsigned apps. Always run the `xattr -cr` command on downloaded `.app` files.
+
+**Gatekeeper:** If macOS reports that "app is damaged", then right-click and select `Open` → `Open` (might be needed twice).
+
+**URL Protocol:** After the `.app` bundle is installed, the `rhtlc://` links work automatically in browsers.
+
+**NOTE:** For Homebrew installation instructions, refer to https://brew.sh/.
 

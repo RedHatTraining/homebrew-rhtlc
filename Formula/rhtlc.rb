@@ -1,9 +1,9 @@
 class Rhtlc < Formula
   desc "Red Hat Training Lab Connector - CLI for connecting to training environments"
   homepage "https://github.com/RedHatTraining/homebrew-rhtlc"
-  url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.0.2/rhtlc-macos-arm64.tar.gz"
-  version "6.0.2"
-  sha256 "d93001b909ef64d37db6657052c013af8c1911ac0e411f16cd1db7486d988751"
+  url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.2.1/rhtlc-macos-arm64.tar.gz"
+  version "6.2.1"
+  sha256 "ae72295114c2465e0e386234fb78dc2244c71811d6a1cdb754f3bc7545905ffa"
   license "MIT"
 
   # Homebrew 7+ `brew tap` / `brew readall` evaluates Linux even on macOS.
@@ -12,12 +12,12 @@ class Rhtlc < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.0.2/rhtlc-macos-x86_64.tar.gz"
-      sha256 "92080e761345185a93807a5e076c7cab1827c5a0bdbcd6818c74b0f3ae4bae7f"
+      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.2.1/rhtlc-macos-x86_64.tar.gz"
+      sha256 "4994251a46ef2bf9ef1d4d9c07960d2019f469714cf06af0914fdf245ba4ebc2"
     end
     on_arm do
-      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.0.2/rhtlc-macos-arm64.tar.gz"
-      sha256 "d93001b909ef64d37db6657052c013af8c1911ac0e411f16cd1db7486d988751"
+      url "https://github.com/RedHatTraining/homebrew-rhtlc/raw/main/releases/6.2.1/rhtlc-macos-arm64.tar.gz"
+      sha256 "ae72295114c2465e0e386234fb78dc2244c71811d6a1cdb754f3bc7545905ffa"
     end
   end
 
